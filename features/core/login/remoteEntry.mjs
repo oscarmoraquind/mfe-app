@@ -5086,6 +5086,13 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 
 /***/ }),
 
+/***/ 7084:
+/***/ (() => {
+
+(function() {return "https://oscarmoraquind.github.io/mfe-ds/"})()
+
+/***/ }),
+
 /***/ 5642:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -5647,6 +5654,7 @@ if(!__webpack_require__.federation.instance){
 /******/ // module cache are used so entry inlining is disabled
 /******/ // startup
 /******/ // Load entry module and return exports
+/******/ __webpack_require__(7084);
 /******/ var __webpack_exports__ = __webpack_require__(1687);
 /******/ var __webpack_exports__get = __webpack_exports__.get;
 /******/ var __webpack_exports__init = __webpack_exports__.init;

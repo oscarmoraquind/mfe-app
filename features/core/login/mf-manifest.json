@@ -21,7 +21,7 @@
     },
     "globalName": "login",
     "pluginVersion": "0.7.6",
-    "publicPath": "auto",
+    "getPublicPath": "function() {return \"https://oscarmoraquind.github.io/mfe-ds/\"}",
     "prefetchInterface": false
   },
   "shared": [
