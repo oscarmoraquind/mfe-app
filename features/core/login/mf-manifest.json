@@ -1,0 +1,275 @@
+{
+  "id": "login",
+  "name": "login",
+  "metaData": {
+    "name": "login",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@flypass/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.mjs",
+      "path": "",
+      "type": "module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "login",
+    "pluginVersion": "0.7.6",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "login:@angular/common/http",
+      "name": "@angular/common/http",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "common.cad766b90485a07d.js",
+            "609.25be961e861db21d.js"
+          ],
+          "sync": [
+            "40.0c95a712d013a237.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/common",
+      "name": "@angular/common",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "356.1651b7fd4e7b2148.js",
+            "common.cad766b90485a07d.js",
+            "609.25be961e861db21d.js"
+          ],
+          "sync": [
+            "487.6bb0e9749dac8e84.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/core/primitives/event-dispatch",
+      "name": "@angular/core/primitives/event-dispatch",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "609.25be961e861db21d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/core/primitives/signals",
+      "name": "@angular/core/primitives/signals",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "367.461da326e1554f4b.js",
+            "64.46fe9cd95fea2c9d.js",
+            "446.b414e23543e4a39b.js",
+            "597.13f52d162432ab6d.js",
+            "673.501603eac51f8567.js",
+            "123.21c289d0075fac59.js",
+            "609.25be961e861db21d.js",
+            "40.0c95a712d013a237.js"
+          ],
+          "sync": [
+            "common.cad766b90485a07d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/core",
+      "name": "@angular/core",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "common.cad766b90485a07d.js",
+            "609.25be961e861db21d.js"
+          ],
+          "sync": [
+            "356.1651b7fd4e7b2148.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/platform-browser",
+      "name": "@angular/platform-browser",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "446.b414e23543e4a39b.js",
+            "40.0c95a712d013a237.js",
+            "common.cad766b90485a07d.js",
+            "609.25be961e861db21d.js"
+          ],
+          "sync": [
+            "64.46fe9cd95fea2c9d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "login:@angular/router",
+      "name": "@angular/router",
+      "version": "19.0.6",
+      "singleton": true,
+      "requiredVersion": "~19.0.0",
+      "assets": {
+        "js": {
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "64.46fe9cd95fea2c9d.js",
+            "common.cad766b90485a07d.js",
+            "609.25be961e861db21d.js",
+            "40.0c95a712d013a237.js"
+          ],
+          "sync": [
+            "597.13f52d162432ab6d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "login:Routes",
+      "name": "Routes",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./Routes"
+    },
+    {
+      "id": "login:login",
+      "name": "login",
+      "assets": {
+        "js": {
+          "sync": [
+            "446.b414e23543e4a39b.js",
+            "673.501603eac51f8567.js",
+            "common.cad766b90485a07d.js",
+            "__federation_expose_login.eab118ee6a572ded.js"
+          ],
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "367.461da326e1554f4b.js",
+            "64.46fe9cd95fea2c9d.js",
+            "597.13f52d162432ab6d.js",
+            "123.21c289d0075fac59.js",
+            "609.25be961e861db21d.js",
+            "40.0c95a712d013a237.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "login"
+    },
+    {
+      "id": "login:signup",
+      "name": "signup",
+      "assets": {
+        "js": {
+          "sync": [
+            "446.b414e23543e4a39b.js",
+            "673.501603eac51f8567.js",
+            "common.cad766b90485a07d.js",
+            "__federation_expose_signup.aa55fd109dfb844c.js"
+          ],
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "367.461da326e1554f4b.js",
+            "64.46fe9cd95fea2c9d.js",
+            "597.13f52d162432ab6d.js",
+            "123.21c289d0075fac59.js",
+            "609.25be961e861db21d.js",
+            "40.0c95a712d013a237.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "signup"
+    }
+  ]
+}
