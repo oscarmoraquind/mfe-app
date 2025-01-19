@@ -4727,7 +4727,7 @@ exports._extends = _extends;
 
 /***/ }),
 
-/***/ 1687:
+/***/ 9274:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var moduleMap = {
@@ -4735,10 +4735,13 @@ var moduleMap = {
 		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(76)]).then(() => (() => ((__webpack_require__(129)))));
 	},
 	"login": () => {
-		return Promise.all(/* __federation_expose_login */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(352), __webpack_require__.e(76), __webpack_require__.e(847)]).then(() => (() => ((__webpack_require__(7916)))));
+		return Promise.all(/* __federation_expose_login */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(847)]).then(() => (() => ((__webpack_require__(7916)))));
 	},
 	"signup": () => {
-		return Promise.all(/* __federation_expose_signup */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(352), __webpack_require__.e(76), __webpack_require__.e(364)]).then(() => (() => ((__webpack_require__(4573)))));
+		return Promise.all(/* __federation_expose_signup */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(364)]).then(() => (() => ((__webpack_require__(4573)))));
+	},
+	"confirm": () => {
+		return Promise.all(/* __federation_expose_confirm */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(352)]).then(() => (() => ((__webpack_require__(6937)))));
 	}
 };
 var get = (module, getScope) => {
@@ -5171,7 +5174,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	if(!__webpack_require__.federation){
 /******/ 		__webpack_require__.federation = {
 /******/ 			initOptions: {"name":"login","remotes":[],"shareStrategy":"version-first"},
-/******/ 			chunkMatcher: function(chunkId) {return !/^(169|352|424|895)$/.test(chunkId)},
+/******/ 			chunkMatcher: function(chunkId) {return !/^(169|424|895|971)$/.test(chunkId)},
 /******/ 			rootOutputDir: "",
 /******/ 			initialConsumes: undefined,
 /******/ 			bundlerRuntimeOptions: {}
@@ -5221,7 +5224,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + ({"76":"common","364":"__federation_expose_signup","847":"__federation_expose_login"}[chunkId] || chunkId) + "." + {"40":"0c95a712d013a237","64":"46fe9cd95fea2c9d","76":"cad766b90485a07d","123":"21c289d0075fac59","356":"1651b7fd4e7b2148","364":"aa55fd109dfb844c","367":"461da326e1554f4b","446":"b414e23543e4a39b","487":"6bb0e9749dac8e84","597":"13f52d162432ab6d","609":"25be961e861db21d","673":"501603eac51f8567","847":"eab118ee6a572ded"}[chunkId] + ".js";
+/******/ 		return "" + ({"76":"common","352":"__federation_expose_confirm","364":"__federation_expose_signup","847":"__federation_expose_login"}[chunkId] || chunkId) + "." + {"40":"0c95a712d013a237","64":"46fe9cd95fea2c9d","76":"338749eaceadf75b","123":"21c289d0075fac59","352":"b9dd6cfb086ddf9c","356":"1651b7fd4e7b2148","364":"aa55fd109dfb844c","365":"7a575788fff2d45b","367":"461da326e1554f4b","446":"b414e23543e4a39b","487":"6bb0e9749dac8e84","597":"13f52d162432ab6d","609":"25be961e861db21d","673":"648591c79e0bb519","847":"eab118ee6a572ded"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -5533,9 +5536,6 @@ if(!__webpack_require__.federation.instance){
 /******/ 		"169": [
 /******/ 			3169
 /******/ 		],
-/******/ 		"352": [
-/******/ 			3352
-/******/ 		],
 /******/ 		"356": [
 /******/ 			802,
 /******/ 			7648
@@ -5545,6 +5545,9 @@ if(!__webpack_require__.federation.instance){
 /******/ 		],
 /******/ 		"895": [
 /******/ 			9895
+/******/ 		],
+/******/ 		"971": [
+/******/ 			3352
 /******/ 		]
 /******/ 	};
 /******/ 	__webpack_require__.f.consumes = (chunkId, promises) => {
@@ -5579,7 +5582,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 				if(installedChunkData) {
 /******/ 					promises.push(installedChunkData[2]);
 /******/ 				} else {
-/******/ 					if(!/^(169|352|424|895)$/.test(chunkId)) {
+/******/ 					if(!/^(169|424|895|971)$/.test(chunkId)) {
 /******/ 						// setup Promise in chunk cache
 /******/ 						var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 						promises.push(installedChunkData[2] = promise);
@@ -5655,7 +5658,7 @@ if(!__webpack_require__.federation.instance){
 /******/ // startup
 /******/ // Load entry module and return exports
 /******/ __webpack_require__(7084);
-/******/ var __webpack_exports__ = __webpack_require__(1687);
+/******/ var __webpack_exports__ = __webpack_require__(9274);
 /******/ var __webpack_exports__get = __webpack_exports__.get;
 /******/ var __webpack_exports__init = __webpack_exports__.init;
 /******/ export { __webpack_exports__get as get, __webpack_exports__init as init };

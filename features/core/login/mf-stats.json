@@ -38,7 +38,7 @@
           "async": [
             "487.6bb0e9749dac8e84.js",
             "356.1651b7fd4e7b2148.js",
-            "common.cad766b90485a07d.js",
+            "common.338749eaceadf75b.js",
             "609.25be961e861db21d.js"
           ],
           "sync": [
@@ -65,7 +65,7 @@
         "js": {
           "async": [
             "356.1651b7fd4e7b2148.js",
-            "common.cad766b90485a07d.js",
+            "common.338749eaceadf75b.js",
             "609.25be961e861db21d.js"
           ],
           "sync": [
@@ -120,13 +120,14 @@
             "64.46fe9cd95fea2c9d.js",
             "446.b414e23543e4a39b.js",
             "597.13f52d162432ab6d.js",
-            "673.501603eac51f8567.js",
+            "673.648591c79e0bb519.js",
             "123.21c289d0075fac59.js",
+            "365.7a575788fff2d45b.js",
             "609.25be961e861db21d.js",
             "40.0c95a712d013a237.js"
           ],
           "sync": [
-            "common.cad766b90485a07d.js"
+            "common.338749eaceadf75b.js"
           ]
         },
         "css": {
@@ -148,7 +149,7 @@
       "assets": {
         "js": {
           "async": [
-            "common.cad766b90485a07d.js",
+            "common.338749eaceadf75b.js",
             "609.25be961e861db21d.js"
           ],
           "sync": [
@@ -178,7 +179,7 @@
             "356.1651b7fd4e7b2148.js",
             "446.b414e23543e4a39b.js",
             "40.0c95a712d013a237.js",
-            "common.cad766b90485a07d.js",
+            "common.338749eaceadf75b.js",
             "609.25be961e861db21d.js"
           ],
           "sync": [
@@ -207,7 +208,7 @@
             "487.6bb0e9749dac8e84.js",
             "356.1651b7fd4e7b2148.js",
             "64.46fe9cd95fea2c9d.js",
-            "common.cad766b90485a07d.js",
+            "common.338749eaceadf75b.js",
             "609.25be961e861db21d.js",
             "40.0c95a712d013a237.js"
           ],
@@ -252,8 +253,8 @@
         "js": {
           "sync": [
             "446.b414e23543e4a39b.js",
-            "673.501603eac51f8567.js",
-            "common.cad766b90485a07d.js",
+            "673.648591c79e0bb519.js",
+            "common.338749eaceadf75b.js",
             "__federation_expose_login.eab118ee6a572ded.js"
           ],
           "async": [
@@ -263,6 +264,7 @@
             "64.46fe9cd95fea2c9d.js",
             "597.13f52d162432ab6d.js",
             "123.21c289d0075fac59.js",
+            "365.7a575788fff2d45b.js",
             "609.25be961e861db21d.js",
             "40.0c95a712d013a237.js"
           ]
@@ -283,8 +285,8 @@
         "js": {
           "sync": [
             "446.b414e23543e4a39b.js",
-            "673.501603eac51f8567.js",
-            "common.cad766b90485a07d.js",
+            "673.648591c79e0bb519.js",
+            "common.338749eaceadf75b.js",
             "__federation_expose_signup.aa55fd109dfb844c.js"
           ],
           "async": [
@@ -294,6 +296,39 @@
             "64.46fe9cd95fea2c9d.js",
             "597.13f52d162432ab6d.js",
             "123.21c289d0075fac59.js",
+            "365.7a575788fff2d45b.js",
+            "609.25be961e861db21d.js",
+            "40.0c95a712d013a237.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    },
+    {
+      "path": "confirm",
+      "id": "login:confirm",
+      "name": "confirm",
+      "requires": [],
+      "file": "features/core/login/src/app/remote.confirm.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "446.b414e23543e4a39b.js",
+            "673.648591c79e0bb519.js",
+            "common.338749eaceadf75b.js",
+            "__federation_expose_confirm.b9dd6cfb086ddf9c.js"
+          ],
+          "async": [
+            "487.6bb0e9749dac8e84.js",
+            "356.1651b7fd4e7b2148.js",
+            "367.461da326e1554f4b.js",
+            "64.46fe9cd95fea2c9d.js",
+            "597.13f52d162432ab6d.js",
+            "123.21c289d0075fac59.js",
+            "365.7a575788fff2d45b.js",
             "609.25be961e861db21d.js",
             "40.0c95a712d013a237.js"
           ]
