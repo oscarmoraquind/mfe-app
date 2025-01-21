@@ -1,0 +1,1 @@
+(self.webpackChunklogin=self.webpackChunklogin||[]).push([[352],{6937:(r,n,o)=>{o.r(n),o.d(n,{default:()=>a});var _=o(3169),l=o(1259),t=o(9660);const a={mount(E){console.log("load mf"),console.log(E),(0,_.bootstrapApplication)(t.$,l.U).catch(m=>console.error(m))},update(){},unmount(){}}}}]);

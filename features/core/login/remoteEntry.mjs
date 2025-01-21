@@ -1,6 +1,6 @@
 /******/ var __webpack_modules__ = ({
 
-/***/ 3592:
+/***/ 8707:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -62,16 +62,16 @@ exports.typeDescMap = typeDescMap;
 
 /***/ }),
 
-/***/ 1100:
+/***/ 5639:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
 var _asyncToGenerator = (__webpack_require__(7299)["default"]);
-var polyfills = __webpack_require__(5384);
-var sdk = __webpack_require__(2972);
-var share = __webpack_require__(3571);
-var errorCodes = __webpack_require__(3592);
+var polyfills = __webpack_require__(8731);
+var sdk = __webpack_require__(1111);
+var share = __webpack_require__(1612);
+var errorCodes = __webpack_require__(8707);
 
 // Function to match a remote with its name and expose
 // id: pkgName(@federation/app1) + expose(button) = @federation/app1/button
@@ -2467,7 +2467,7 @@ exports.registerRemotes = registerRemotes;
 
 /***/ }),
 
-/***/ 5384:
+/***/ 8731:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -2499,13 +2499,13 @@ exports._object_without_properties_loose = _object_without_properties_loose;
 
 /***/ }),
 
-/***/ 3571:
+/***/ 1612:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
-var polyfills = __webpack_require__(5384);
-var sdk = __webpack_require__(2972);
+var polyfills = __webpack_require__(8731);
+var sdk = __webpack_require__(1111);
 function getBuilderId() {
   //@ts-ignore
   return  true ? "login:0.0.0" : 0;
@@ -3452,14 +3452,14 @@ exports.warn = warn;
 
 /***/ }),
 
-/***/ 2972:
+/***/ 1111:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
 var _asyncToGenerator = (__webpack_require__(7299)["default"]);
-var isomorphicRslog = __webpack_require__(4476);
-var polyfills = __webpack_require__(5704);
+var isomorphicRslog = __webpack_require__(6357);
+var polyfills = __webpack_require__(763);
 const FederationModuleManifest = 'federation-manifest.json';
 const MANIFEST_EXT = '.json';
 const BROWSER_LOG_KEY = 'FEDERATION_DEBUG';
@@ -4326,7 +4326,7 @@ exports.warn = warn;
 
 /***/ }),
 
-/***/ 5704:
+/***/ 763:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -4345,12 +4345,12 @@ exports._extends = _extends;
 
 /***/ }),
 
-/***/ 9086:
+/***/ 6515:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 
-var sdk = __webpack_require__(2972);
+var sdk = __webpack_require__(1111);
 const FEDERATION_SUPPORTED_TYPES = ['script'];
 Object.defineProperty(exports, "ENCODE_NAME_PREFIX", ({
   enumerable: true,
@@ -4362,15 +4362,15 @@ exports.FEDERATION_SUPPORTED_TYPES = FEDERATION_SUPPORTED_TYPES;
 
 /***/ }),
 
-/***/ 1728:
+/***/ 9731:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-var runtime = __webpack_require__(1100);
-var constant = __webpack_require__(9086);
-var sdk = __webpack_require__(2972);
-var polyfills = __webpack_require__(1404);
+var runtime = __webpack_require__(5639);
+var constant = __webpack_require__(6515);
+var sdk = __webpack_require__(1111);
+var polyfills = __webpack_require__(247);
 function _interopNamespaceDefault(e) {
   var n = Object.create(null);
   if (e) {
@@ -4708,7 +4708,7 @@ module.exports = federation;
 
 /***/ }),
 
-/***/ 1404:
+/***/ 247:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -4732,16 +4732,16 @@ exports._extends = _extends;
 
 var moduleMap = {
 	"./Routes": () => {
-		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(589), __webpack_require__.e(76)]).then(() => (() => ((__webpack_require__(7046)))));
+		return Promise.all(/* __federation_expose_Routes */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(76)]).then(() => (() => ((__webpack_require__(129)))));
 	},
 	"login": () => {
-		return Promise.all(/* __federation_expose_login */[__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(589), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(847)]).then(() => (() => ((__webpack_require__(8665)))));
+		return Promise.all(/* __federation_expose_login */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(847)]).then(() => (() => ((__webpack_require__(7916)))));
 	},
 	"signup": () => {
-		return Promise.all(/* __federation_expose_signup */[__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(589), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(364)]).then(() => (() => ((__webpack_require__(3202)))));
+		return Promise.all(/* __federation_expose_signup */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(364)]).then(() => (() => ((__webpack_require__(4573)))));
 	},
 	"confirm": () => {
-		return Promise.all(/* __federation_expose_confirm */[__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(589), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(352)]).then(() => (() => ((__webpack_require__(9332)))));
+		return Promise.all(/* __federation_expose_confirm */[__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(673), __webpack_require__.e(169), __webpack_require__.e(971), __webpack_require__.e(76), __webpack_require__.e(352)]).then(() => (() => ((__webpack_require__(6937)))));
 	}
 };
 var get = (module, getScope) => {
@@ -4775,7 +4775,7 @@ __webpack_require__.d(exports, {
 
 /***/ }),
 
-/***/ 4476:
+/***/ 6357:
 /***/ ((module) => {
 
 
@@ -5100,7 +5100,7 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _home_usuario_Documentos_flypass_projects_frontend_template_micro_node_modules_pnpm_module_federation_webpack_bundler_runtime_0_7_6_node_modules_module_federation_webpack_bundler_runtime_dist_index_cjs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1728);
+/* harmony import */ var _home_usuario_Documentos_flypass_projects_frontend_template_micro_node_modules_pnpm_module_federation_webpack_bundler_runtime_0_7_6_node_modules_module_federation_webpack_bundler_runtime_dist_index_cjs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9731);
 
 
 if(!__webpack_require__.federation.runtime){
@@ -5224,7 +5224,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	// This function allow to reference async chunks
 /******/ 	__webpack_require__.u = (chunkId) => {
 /******/ 		// return url for filenames based on template
-/******/ 		return "" + ({"76":"common","352":"__federation_expose_confirm","364":"__federation_expose_signup","847":"__federation_expose_login"}[chunkId] || chunkId) + "." + {"76":"0e89ecd97cdc9f7b","217":"3686fea6f120eac0","242":"868c6eceb67308c7","345":"837fec76b9ce268d","352":"a0f28d58486d5e3b","364":"da9e466764105552","380":"3c3b88819aebd8b4","456":"d558cab22c25cb5f","586":"fdcf63fc736de565","589":"8dbbd3611b128a4a","761":"e1dfa29e54cda967","783":"86991dd5d743eabd","847":"06b88353a1b6ca18","953":"7fb9b3189b2e0fa0","986":"b2bef60f027d1799"}[chunkId] + ".js";
+/******/ 		return "" + ({"76":"common","352":"__federation_expose_confirm","364":"__federation_expose_signup","847":"__federation_expose_login"}[chunkId] || chunkId) + "." + {"40":"0c95a712d013a237","64":"46fe9cd95fea2c9d","76":"f38054ad5d92a7bb","123":"21c289d0075fac59","352":"b9dd6cfb086ddf9c","356":"1651b7fd4e7b2148","364":"aa55fd109dfb844c","365":"7a575788fff2d45b","367":"461da326e1554f4b","446":"b414e23543e4a39b","487":"6bb0e9749dac8e84","597":"13f52d162432ab6d","609":"25be961e861db21d","673":"648591c79e0bb519","847":"eab118ee6a572ded"}[chunkId] + ".js";
 /******/ 	};
 /******/ })();
 /******/ 
@@ -5340,13 +5340,14 @@ if(!__webpack_require__.federation.instance){
 /******/ 		var promises = [];
 /******/ 		switch(name) {
 /******/ 			case "default": {
-/******/ 				register("@angular/common/http", "19.0.6", () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(6345))))));
-/******/ 				register("@angular/common", "19.0.6", () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(242)]).then(() => (() => (__webpack_require__(4242))))));
-/******/ 				register("@angular/core/primitives/event-dispatch", "19.0.6", () => (__webpack_require__.e(986).then(() => (() => (__webpack_require__(2986))))));
-/******/ 				register("@angular/core/primitives/signals", "19.0.6", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(5520))))));
-/******/ 				register("@angular/core", "19.0.6", () => (__webpack_require__.e(217).then(() => (() => (__webpack_require__(4217))))));
-/******/ 				register("@angular/platform-browser", "19.0.6", () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(783)]).then(() => (() => (__webpack_require__(5783))))));
-/******/ 				register("@angular/router", "19.0.6", () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(169), __webpack_require__.e(761)]).then(() => (() => (__webpack_require__(5761))))));
+/******/ 				register("@angular/common/http", "19.0.6", () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(40)]).then(() => (() => (__webpack_require__(8040))))));
+/******/ 				register("@angular/common", "19.0.6", () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(487)]).then(() => (() => (__webpack_require__(7487))))));
+/******/ 				register("@angular/core/primitives/event-dispatch", "19.0.6", () => (__webpack_require__.e(609).then(() => (() => (__webpack_require__(5609))))));
+/******/ 				register("@angular/core/primitives/signals", "19.0.6", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(7833))))));
+/******/ 				register("@angular/core", "19.0.6", () => (__webpack_require__.e(356).then(() => (() => (__webpack_require__(9356))))));
+/******/ 				register("@angular/platform-browser", "19.0.6", () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(64)]).then(() => (() => (__webpack_require__(8064))))));
+/******/ 				register("@angular/router", "19.0.6", () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(169), __webpack_require__.e(597)]).then(() => (() => (__webpack_require__(8597))))));
+/******/ 				register("workbox-window", "7.3.0", () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(3959))))));
 /******/ 			}
 /******/ 			break;
 /******/ 		}
@@ -5380,27 +5381,30 @@ if(!__webpack_require__.federation.instance){
 /******/ /* webpack/runtime/sharing */
 /******/ (() => {
 /******/ 	__webpack_require__.federation.initOptions.shared = {	"@angular/common/http": [{	version: "19.0.6",
-/******/ 			get: () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(6345))))),
+/******/ 			get: () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(40)]).then(() => (() => (__webpack_require__(8040))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/common": [{	version: "19.0.6",
-/******/ 			get: () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(242)]).then(() => (() => (__webpack_require__(4242))))),
+/******/ 			get: () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(487)]).then(() => (() => (__webpack_require__(7487))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/core/primitives/event-dispatch": [{	version: "19.0.6",
-/******/ 			get: () => (__webpack_require__.e(986).then(() => (() => (__webpack_require__(2986))))),
+/******/ 			get: () => (__webpack_require__.e(609).then(() => (() => (__webpack_require__(5609))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/core/primitives/signals": [{	version: "19.0.6",
-/******/ 			get: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(5520))))),
+/******/ 			get: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(7833))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/core": [{	version: "19.0.6",
-/******/ 			get: () => (__webpack_require__.e(217).then(() => (() => (__webpack_require__(4217))))),
+/******/ 			get: () => (__webpack_require__.e(356).then(() => (() => (__webpack_require__(9356))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/platform-browser": [{	version: "19.0.6",
-/******/ 			get: () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(783)]).then(() => (() => (__webpack_require__(5783))))),
+/******/ 			get: () => (Promise.all([__webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(64)]).then(() => (() => (__webpack_require__(8064))))),
 /******/ 			scope: ["default"],
 /******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"@angular/router": [{	version: "19.0.6",
-/******/ 			get: () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(169), __webpack_require__.e(761)]).then(() => (() => (__webpack_require__(5761))))),
+/******/ 			get: () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(424), __webpack_require__.e(895), __webpack_require__.e(169), __webpack_require__.e(597)]).then(() => (() => (__webpack_require__(8597))))),
 /******/ 			scope: ["default"],
-/******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],}
+/******/ 			shareConfig: {"eager":false,"requiredVersion":"~19.0.0","strictVersion":true,"singleton":true}},],	"workbox-window": [{	version: "7.3.0",
+/******/ 			get: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(3959))))),
+/******/ 			scope: ["default"],
+/******/ 			shareConfig: {"eager":false,"requiredVersion":"^7.3.0","strictVersion":true,"singleton":true}},],}
 /******/ 	__webpack_require__.S = {};
 /******/ 	var initPromises = {};
 /******/ 	var initTokens = {};
@@ -5430,7 +5434,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 	var installedModules = {};
 /******/ 	var moduleToHandlerMapping = {
 /******/ 		2424: {
-/******/ 			getter: () => (__webpack_require__.e(217).then(() => (() => (__webpack_require__(4217))))),
+/******/ 			getter: () => (__webpack_require__.e(356).then(() => (() => (__webpack_require__(9356))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5444,7 +5448,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/core",
 /******/ 		},
 /******/ 		9895: {
-/******/ 			getter: () => (__webpack_require__.e(242).then(() => (() => (__webpack_require__(4242))))),
+/******/ 			getter: () => (__webpack_require__.e(487).then(() => (() => (__webpack_require__(7487))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5458,7 +5462,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/common",
 /******/ 		},
 /******/ 		3169: {
-/******/ 			getter: () => (__webpack_require__.e(783).then(() => (() => (__webpack_require__(5783))))),
+/******/ 			getter: () => (__webpack_require__.e(64).then(() => (() => (__webpack_require__(8064))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5472,7 +5476,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/platform-browser",
 /******/ 		},
 /******/ 		3352: {
-/******/ 			getter: () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(761)]).then(() => (() => (__webpack_require__(5761))))),
+/******/ 			getter: () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(597)]).then(() => (() => (__webpack_require__(8597))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5486,7 +5490,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/router",
 /******/ 		},
 /******/ 		802: {
-/******/ 			getter: () => (__webpack_require__.e(986).then(() => (() => (__webpack_require__(2986))))),
+/******/ 			getter: () => (__webpack_require__.e(609).then(() => (() => (__webpack_require__(5609))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5500,7 +5504,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/core/primitives/event-dispatch",
 /******/ 		},
 /******/ 		7648: {
-/******/ 			getter: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(5520))))),
+/******/ 			getter: () => (__webpack_require__.e(76).then(() => (() => (__webpack_require__(7833))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5514,7 +5518,7 @@ if(!__webpack_require__.federation.instance){
 /******/ 			shareKey: "@angular/core/primitives/signals",
 /******/ 		},
 /******/ 		4721: {
-/******/ 			getter: () => (Promise.all([__webpack_require__.e(953), __webpack_require__.e(345)]).then(() => (() => (__webpack_require__(6345))))),
+/******/ 			getter: () => (Promise.all([__webpack_require__.e(446), __webpack_require__.e(40)]).then(() => (() => (__webpack_require__(8040))))),
 /******/ 			shareInfo: {
 /******/ 				shareConfig: {
 /******/ 				  "fixedDependencies": false,
@@ -5530,18 +5534,18 @@ if(!__webpack_require__.federation.instance){
 /******/ 	};
 /******/ 	// no consumes in initial chunks
 /******/ 	var chunkMapping = {
+/******/ 		"64": [
+/******/ 			4721
+/******/ 		],
 /******/ 		"169": [
 /******/ 			3169
 /******/ 		],
-/******/ 		"217": [
+/******/ 		"356": [
 /******/ 			802,
 /******/ 			7648
 /******/ 		],
 /******/ 		"424": [
 /******/ 			2424
-/******/ 		],
-/******/ 		"783": [
-/******/ 			4721
 /******/ 		],
 /******/ 		"895": [
 /******/ 			9895
