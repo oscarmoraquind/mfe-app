@@ -1,0 +1,1 @@
+(self.webpackChunklogin=self.webpackChunklogin||[]).push([[286],{129:(l,n,o)=>{o.r(n),o.d(n,{remoteRoutes:()=>t});const t=[{path:"",component:o(3880).M}]}}]);
